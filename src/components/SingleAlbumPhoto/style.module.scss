@@ -1,0 +1,46 @@
+.icon_block {
+  display: flex;
+
+  &__back {
+    width: 20px;
+    height: 20px;
+    color: #333;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    & p {
+      margin-left: 15px
+    }
+  }
+}
+
+.container{
+
+  &__photo{
+    max-width: 400px;
+    margin: 20px 0;
+  }
+
+  &__row{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #dcdcdc;
+
+    & p{
+      max-width: 500px;
+      padding: 10px 0;
+      width: 100%;
+    }
+
+    & p:first-child{
+      width: 100px;
+    }
+  }
+}

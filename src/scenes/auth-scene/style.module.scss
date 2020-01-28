@@ -1,0 +1,41 @@
+.scene_wrap{
+  width: 100vm;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 350px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+
+  &__title {
+    color: #636363;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  &__input {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  &__btn {
+    margin: auto;
+    display: block;
+    width: 100%;
+  }
+
+  &__error{
+    margin: 10px 0;
+    text-align: center;
+    color: #ff3d6b;
+  }
+}

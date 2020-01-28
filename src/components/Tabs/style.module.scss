@@ -1,0 +1,23 @@
+.tabs {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.tab_item {
+  padding: 10px 30px;
+  border-radius: 4px 4px 0 0;
+  border-top: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  cursor: pointer;
+
+  &:last-child {
+    border-right: 1px solid #dcdcdc;
+  }
+
+  & svg {
+    width: 20px;
+    height: 20px;
+    color: #58738e;
+  }
+}
