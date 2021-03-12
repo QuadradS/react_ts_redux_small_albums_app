@@ -59,7 +59,7 @@
     "react": "^16.10.2",
     "react-alice-carousel": "^1.15.3",
     "react-app-polyfill": "^1.0.4",
-    "react-dev-utils": "^9.1.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.10.2",
     "react-dropzone": "^10.2.1",
     "react-owl-carousel2": "^0.3.0",
